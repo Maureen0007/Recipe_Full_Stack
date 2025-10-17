@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root to: proc { [200, {}, ['{"message":"Welcome to the Recipe API"}']] }
+  
   namespace :api do
     namespace :v1 do
       # User Profile
