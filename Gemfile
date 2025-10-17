@@ -53,5 +53,8 @@ group :development, :test do
 
   gem 'dotenv-rails'
 
+  gem 'sprockets-rails'
+
+
 
 end
